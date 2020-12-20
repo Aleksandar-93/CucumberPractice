@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
     features = "src\\test\\resources\\features",
         glue = "com\\cybertek\\step_definition",
         dryRun = false,
-        tags = ""
+        tags = "@vehicle"
 
 )
 public class TestRunner {
