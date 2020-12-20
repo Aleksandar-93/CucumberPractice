@@ -22,4 +22,8 @@ public class LoginStepDefinitions {
     public void user_should_be_able_to_see_dashboard_page_title() {
         System.out.println("I see the page title is Dashboard");
     }
+    @When("user enters {string}  and {string}")
+    public void user_enters_and(String ussername, String password) {
+        System.out.printf("Enter username %s, and password %s to login", ussername, password);
+    }
 }

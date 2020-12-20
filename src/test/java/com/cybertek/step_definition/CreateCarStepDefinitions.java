@@ -34,7 +34,7 @@ public class CreateCarStepDefinitions {
     @Then("user enter vehicles information:")
     public void user_enter_vehicles_information(List<Map<String, String>> dataTable) {
 //        dataTable.forEach(p -> System.out.println(p));  PRINT ALL FROM OUR LIST....
-        System.out.println("Driver: "+dataTable.get(0).get("Driver")); //ROW 1 Get D    river
+        System.out.println("Driver: "+dataTable.get(0).get("Driver")); //ROW 1 Get Driver
         System.out.println("Driver: "+dataTable.get(0).get("Location")); //ROW 1 Get Location
 
     }

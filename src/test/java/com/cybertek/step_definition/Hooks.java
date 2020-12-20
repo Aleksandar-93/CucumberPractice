@@ -2,11 +2,13 @@ package com.cybertek.step_definition;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class
 Hooks {
     @Before
-    public void setup(){
+    public void setup(Scenario scenario){
+        System.out.println("Scenario name: "+scenario.getName());
         System.out.println("Empty hook before");
     }
 
