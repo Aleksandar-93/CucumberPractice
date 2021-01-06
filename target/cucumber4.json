@@ -1,267 +1,5 @@
 [
   {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2021-01-06T16:25:57.300Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Create vehicle",
-        "description": "",
-        "id": "create-vehicle;create-vehicle",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user logs in with \"stormanager85\" and \"UserUser123\" credentials",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"stormanager85\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"UserUser123\"",
-                  "offset": 38
-                }
-              ],
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_logs_in_with_and_credentials(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user click on create a car button",
-            "match": {
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_click_on_create_a_car_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user enter vehicles information:",
-            "match": {
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_enter_vehicles_information(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Licence Plate",
-                  "Driver",
-                  "Location",
-                  "Model Year",
-                  "Color"
-                ]
-              },
-              {
-                "cells": [
-                  "SDET123",
-                  "Tester",
-                  "Washington D.C.",
-                  "2020",
-                  "Black"
-                ]
-              },
-              {
-                "cells": [
-                  "JAVA_IS_FUN",
-                  "User",
-                  "McLean, VA",
-                  "2019",
-                  "Red"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@vehicle"
-          }
-        ]
-      }
-    ],
-    "name": "Create vehicle",
-    "description": "  As a user, I want to be able to create vehicle",
-    "id": "create-vehicle",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/CreateVehicle.feature",
-    "tags": [
-      {
-        "name": "@vehicle",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2021-01-06T16:25:57.411Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 7,
-        "name": "Create vehicle",
-        "description": "",
-        "id": "create-vehicle;create-vehicle",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user logs in with \"stormanager85\" and \"UserUser123\" credentials",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"stormanager85\"",
-                  "offset": 18
-                },
-                {
-                  "val": "\"UserUser123\"",
-                  "offset": 38
-                }
-              ],
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_logs_in_with_and_credentials(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user click on create a car button",
-            "match": {
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_click_on_create_a_car_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user enter vehicles information:",
-            "match": {
-              "location": "com.cybertek.step_definition.CreateCarStepDefinitions.user_enter_vehicles_information(java.util.List\u003cjava.util.Map\u003cjava.lang.String, java.lang.String\u003e\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Licence Plate",
-                  "Driver",
-                  "Location",
-                  "Model Year",
-                  "Color"
-                ]
-              },
-              {
-                "cells": [
-                  "SDET123",
-                  "Tester",
-                  "Washington D.C.",
-                  "2020",
-                  "Black"
-                ]
-              },
-              {
-                "cells": [
-                  "JAVA_IS_FUN",
-                  "User",
-                  "McLean, VA",
-                  "2019",
-                  "Red"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@vehicle"
-          }
-        ]
-      }
-    ],
-    "name": "Create vehicle",
-    "description": "  As a user, I want to be able to create vehicle",
-    "id": "create-vehicle",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/CreateVehicle2.feature",
-    "tags": [
-      {
-        "name": "@vehicle",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
     "line": 1,
     "elements": [
       {
@@ -273,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6950000000,
+              "duration": 978000000,
               "status": "passed"
             },
             "line": 5,
@@ -286,265 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:25:57.421Z",
+        "start_timestamp": "2021-01-06T16:38:44.414Z",
         "before": [
           {
             "result": {
               "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.specialScenario()"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "Login as store manager",
-        "description": "",
-        "id": "login;login-as-store-manager",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.specialTeardown()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user logs in as a store manager",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_logs_in_as_a_store_manager()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user should be able to see Dashboard page title",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_should_be_able_to_see_dashboard_page_title()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@scenario1"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": ": Go to login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 754000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-06T16:26:04.383Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Login as store manager",
-        "description": "",
-        "id": "login;login-as-store-manager",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user logs in as a store manager",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_logs_in_as_a_store_manager()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user should be able to see Dashboard page title",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_should_be_able_to_see_dashboard_page_title()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@scenario2"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": ": Go to login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 952000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-06T16:26:05.144Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.setup(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Login as store manager",
-        "description": "",
-        "id": "login;login-as-store-manager",
-        "after": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.cybertek.step_definition.Hooks.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user logs in as a store manager",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_logs_in_as_a_store_manager()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user should be able to see Dashboard page title",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_should_be_able_to_see_dashboard_page_title()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@scenario3"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": ": Go to login page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 957000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on the login page",
-            "match": {
-              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-06T16:26:06.100Z",
-        "before": [
-          {
-            "result": {
               "status": "passed"
             },
             "match": {
@@ -617,7 +101,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1021000000,
+              "duration": 952000000,
               "status": "passed"
             },
             "line": 5,
@@ -630,7 +114,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:07.059Z",
+        "start_timestamp": "2021-01-06T16:38:45.401Z",
         "before": [
           {
             "result": {
@@ -706,7 +190,7 @@
         "steps": [
           {
             "result": {
-              "duration": 694000000,
+              "duration": 693000000,
               "status": "passed"
             },
             "line": 5,
@@ -719,10 +203,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:08.083Z",
+        "start_timestamp": "2021-01-06T16:38:46.356Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -749,6 +234,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 24,
@@ -795,7 +281,7 @@
         "steps": [
           {
             "result": {
-              "duration": 683000000,
+              "duration": 946000000,
               "status": "passed"
             },
             "line": 5,
@@ -808,7 +294,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:08.781Z",
+        "start_timestamp": "2021-01-06T16:38:47.053Z",
         "before": [
           {
             "result": {
@@ -838,7 +324,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 24,
@@ -885,7 +370,7 @@
         "steps": [
           {
             "result": {
-              "duration": 965000000,
+              "duration": 946000000,
               "status": "passed"
             },
             "line": 5,
@@ -898,7 +383,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:09.468Z",
+        "start_timestamp": "2021-01-06T16:38:48.001Z",
         "before": [
           {
             "result": {
@@ -975,7 +460,7 @@
         "steps": [
           {
             "result": {
-              "duration": 694000000,
+              "duration": 934000000,
               "status": "passed"
             },
             "line": 5,
@@ -988,7 +473,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:10.436Z",
+        "start_timestamp": "2021-01-06T16:38:48.951Z",
         "before": [
           {
             "result": {
@@ -1064,7 +549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 964000000,
+              "duration": 934000000,
               "status": "passed"
             },
             "line": 5,
@@ -1077,7 +562,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-06T16:26:11.133Z",
+        "start_timestamp": "2021-01-06T16:38:49.887Z",
         "before": [
           {
             "result": {
@@ -1107,6 +592,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 24,

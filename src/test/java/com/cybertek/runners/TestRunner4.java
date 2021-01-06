@@ -9,10 +9,10 @@ import org.junit.runner.RunWith;
     features = "src\\test\\resources\\features",
         glue = "com\\cybertek\\step_definition",
         dryRun = false,
-        tags = "@scenario1",
-        plugin = "json:target/cucumber1.json"
+        tags = "@Scenario_outline",
+        plugin = "json:target/cucumber4.json"
 
 )
-public class TestRunner {
+public class TestRunner4 {
 
 }

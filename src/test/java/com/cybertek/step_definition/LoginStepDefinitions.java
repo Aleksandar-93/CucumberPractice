@@ -1,15 +1,17 @@
 package com.cybertek.step_definition;
 
+import com.cybertek.utilities.ConfigurationReader;
+import com.cybertek.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import java.sql.Driver;
-
 public class LoginStepDefinitions {
+
     @Given("user is on the login page")
     public void user_is_on_the_login_page() {
-        System.out.println("I am on the login page");
+        Driver.getDriver(ConfigurationReader.getProperty("browser")).get(ConfigurationReader.getProperty("url"));
+
     }
 
     @When("user logs in as a store manager")

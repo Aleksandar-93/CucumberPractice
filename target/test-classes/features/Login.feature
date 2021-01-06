@@ -1,5 +1,7 @@
 Feature: Login
   As user, I want to be able to login with username and password
+
+  Background: : Go to login page
   Given user is on the login page
 
   @scenario1
